@@ -1,0 +1,19 @@
+.collectionCard {
+    color: white;
+    background-color: #1a1c1e;
+    border-radius: 20px;
+    overflow: hidder;
+    width: 300px;
+    height: 500px;
+    margin-right: 30px;
+
+}
+
+.collectionCard > img {
+    width: 100%;
+}
+
+.wethImage {
+    height: 23px;
+    width: 15px;
+}

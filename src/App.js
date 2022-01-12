@@ -1,24 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import CollectionCard from './components/CollectionCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className='app'>
+      <Header />
+      <CollectionCard id={0} name={'bandana punk'} traits={[{'value': 7}]} image={'https://ipfs.thirdweb.com/ipfs/bafybeigqkficum3anns36jid3dxvc4yfauyuvqjulbg43n23qxn3ce3tyu'}/>
+      </div>
   );
 }
 
